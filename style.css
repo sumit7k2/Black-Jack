@@ -1,0 +1,50 @@
+body{
+	background: url('body.jpg') center;
+	opacity: 0.95;
+}
+.container{
+	width: 85%;
+	margin:0 auto;
+	text-align: center;
+}
+.flex-black-jack-row-1,.flex-black-jack-row-2,.flex-black-jack-row-3{
+	display: flex;
+	border: 1px solid black;
+	padding: 10px;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.flex-black-jack-row-1,.flex-black-jack-row-2,.flex-black-jack-row-3{
+	background: url('background.jpg');
+	background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	color: white;
+}
+.flex-black-jack-row-1 div{
+	border: 1px solid black;
+	padding: 10px;
+	height: 350px;
+	flex: 1;
+}
+.flex-black-jack-row-2 button{
+	border: 1px solid black;
+}
+.flex-black-jack-row-2 div{
+	/*border: 1px solid black;*/
+	padding: 5px;
+}
+table,td,th{
+	padding: 5px;
+	border: 1px solid black;
+}
+.imageSize{
+	height: 40%;
+	width: 20%;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	background-color: white;
+	border-radius: 5px;
+}
